@@ -1,3 +1,23 @@
-header {
-
+.header {
+    .menu, &__contacts{
+         display: flex;
+        justify-content: space-between;
+    }
+    .menu{
+        margin-right: 27px;
+        height: 22px;
+        padding-top: 43px;
+        padding-bottom: 37px;
+        &__item{
+            align-self: center;
+            text-transform: uppercase;
+            text-decoration: none;
+            &:hover{
+                color: $orange;
+            }
+        }
+    }
+    &__contacts{
+      
+    }
 }

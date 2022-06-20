@@ -5,16 +5,16 @@
 @import './media/media';
 
 @import './blocks/header/header';
-@import './blocks/main/welcome';
-@import './blocks/main/visiting';
-@import './blocks/main/explore';
-@import './blocks/main/video';
-@import './blocks/main/gallery';
-@import './blocks/main/tikets';
-@import './blocks/main/paralax';
-@import './blocks/main/contacts';
-@import './blocks/footer/footer';
-@import './blocks/main/booking';
 
 
-* {}
+
+* {
+    font-family: 'Montserrat';
+    font-size: 14px;
+    color:$dark-grey;
+}
+
+.container{
+    max-width: 81.77vw;
+    margin: 0 auto;
+}
