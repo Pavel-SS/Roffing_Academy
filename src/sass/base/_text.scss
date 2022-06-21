@@ -1,6 +1,25 @@
 .text{
-    
+
+    &_fs11-600{
+        font-weight: 600;
+        font-size: 0.786rem;
+    }
+    &_fs12{
+        font-size: 0.857rem;
+    }
+    &_fs12-400{
+        font-weight: 400;
+        font-size: 0.857rem;
+    }
+    &_fs12-600{
+        font-weight: 600;
+        font-size: 0.857rem;
+    }
     &_fs14-500{
         font-weight: 500;
+    }
+    &_fs22-600{
+        font-weight: 600;
+        font-size: 1.571rem;
     }
 }

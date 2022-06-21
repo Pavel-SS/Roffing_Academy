@@ -13,8 +13,16 @@
     font-size: 14px;
     color:$dark-grey;
 }
+body{
+    height: 100vh;
+    background: url(../assets/img/BG.png) center (center/cover)  no-repeat;
+}
 
 .container{
     max-width: 81.77vw;
     margin: 0 auto;
+}
+
+a, button{
+    cursor: pointer;
 }
