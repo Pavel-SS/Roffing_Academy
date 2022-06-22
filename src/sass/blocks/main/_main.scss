@@ -1,5 +1,5 @@
 .roof {
-
+    display: flex;
     &__aside,
     &__section {
         display: inline-block;
@@ -37,6 +37,12 @@
 
     &__section {
         width: 37.9167vw;
+        margin-top: 1.563vw;
+
+        &_title{
+            margin: 0 auto;
+            padding-bottom: 0.99vw;
+        }
 
         &_descr {
             position: relative;
@@ -50,13 +56,15 @@
 
             h2 {
                 display: inline-block;
+                margin: 0 auto;
+                padding-bottom: 2.344vw;
             }
         }
 
         &_btns {
             display: flex;
             justify-content: space-between;
-            padding-bottom: 1.979vw;
+            padding-bottom: .833vw;
             .btn {    
                 position: relative;
                 padding: 1.40623vw  3.0208vw 1.51vw 2.76vw;
@@ -82,11 +90,17 @@
                     background: $green;
                     box-shadow: inset 0px 0px 1.146vw #ffffff40;
                     margin-right: 0.9375vw;
+                    &:hover{
+                        background-color: $light-green;
+                    }
                 }
                 &__enroll {
                     max-width: 17.4479vw;
                     background: $orange;
                     box-shadow: inset 0px 0px 1.146vw #ffffff40;
+                    &:hover{
+                        background-color: $light-orange;
+                    }
                 }
             }
         }
@@ -102,6 +116,7 @@
             span{
                 display: inline-block;
                 margin-left: 2.188vw;
+                text-align: center;
             }
         }
     }
