@@ -11,9 +11,16 @@
         font-weight: 400;
         font-size: 0.625vw;
     }
+    &_fs12-500{
+        font-weight: 500;
+        font-size: 0.625vw;
+    }
     &_fs12-600{
         font-weight: 600;
         font-size: 0.625vw;
+    }
+    &_fs14{
+        font-size: 0.729vw;
     }
     &_fs14-400{
         font-weight: 400;
@@ -31,6 +38,17 @@
     &_fs16-400{
         font-weight: 400;
         font-size: 0.833vw;
+        line-height: 1.25vw;
+    }
+    &_fs16-600{
+        font-weight: 600;
+        font-size: 0.833vw;
+        line-height: 1.25vw;
+    }
+    &_fs18-400{
+        font-weight: 400;
+        font-size: 0.938vw;
+        line-height: 1.925vw;
     }
     &_fs22-600{
         font-weight: 600;
