@@ -1,0 +1,108 @@
+.roof {
+
+    &__aside,
+    &__section {
+        display: inline-block;
+    }
+
+    &__aside {
+        margin-right: 3.697vw;
+        max-width: 11.71875vw;
+
+        &_top,
+        &_body {
+            background-color: $white;
+        }
+
+        &_top {
+            height: 2vw;
+            border-radius: 1.0416vw 100% 0 0;
+        }
+
+        &_body {
+            border-bottom-left-radius: 1.0416vw;
+            border-bottom-right-radius: 1.0416vw;
+
+            p {
+                margin: 0 1.5625vw;
+                padding: 1.5625vw 0;
+                text-align: center;
+
+                &:nth-last-child(n+2) {
+                    box-shadow: 0 7px 9px -10px rgba(34, 60, 80, 0.5);
+                }
+            }
+        }
+    }
+
+    &__section {
+        width: 37.9167vw;
+
+        &_descr {
+            position: relative;
+
+            img {
+                top: 50%;
+                transform: translateY(-50%);
+                max-width: 3.02vw;
+                margin-right: 0.833vw;
+            }
+
+            h2 {
+                display: inline-block;
+            }
+        }
+
+        &_btns {
+            display: flex;
+            justify-content: space-between;
+            padding-bottom: 1.979vw;
+            .btn {    
+                position: relative;
+                padding: 1.40623vw  3.0208vw 1.51vw 2.76vw;
+                height: 5.208vw;
+                border: none;
+                border-radius: 2.60416vw;
+                
+                span{
+                    display: inline-block;
+                    margin-right: 1.6145vw;
+                    color:$white;
+                }
+                img{
+                    display: inline-block;
+                    position: relative;
+                    float: right;
+                    top: -100%;
+                    transform: translateY(50%);
+                    width: 1.302vw;
+                }
+                &__calculate {
+                    max-width: 19.531vw;
+                    background: $green;
+                    box-shadow: inset 0px 0px 1.146vw #ffffff40;
+                    margin-right: 0.9375vw;
+                }
+                &__enroll {
+                    max-width: 17.4479vw;
+                    background: $orange;
+                    box-shadow: inset 0px 0px 1.146vw #ffffff40;
+                }
+            }
+        }
+        &_quiz{
+            position: relative;
+            display: block;
+            max-width: 14.375vw;
+            img{
+                transform: translateY(100%);
+                float: left;
+                width: 1.354vw;
+            }
+            span{
+                display: inline-block;
+                margin-left: 2.188vw;
+            }
+        }
+    }
+}
