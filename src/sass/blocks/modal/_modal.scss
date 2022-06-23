@@ -5,7 +5,7 @@
     height: 100vh;
     top: 0;
     background-color: rgba(15, 15, 15, 0.815);
-
+    z-index: 100;
     .modal {
         box-sizing: border-box;
         position: absolute;
@@ -14,7 +14,6 @@
         transform: translate(-50%, -50%);
         width: 28.646vw;
         background-color: $dirty-white;
-        max-width: 28.646vw;
         padding: 3.646vw 4.427vw 4.844vw 5.052vw;
         border-radius: 1.823vw;
         text-align: center;
